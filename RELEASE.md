@@ -1,12 +1,3 @@
-# Upcoming Release 0.19.0
-
-## Major features and improvements
-
-## Bug fixes and other changes
-
-## Breaking changes to the API
-
-## Migration guide from Kedro 0.18.* to 0.19.*
 
 
 # Upcoming Release 0.18.1
@@ -954,35 +945,7 @@ You can find the list of moved files in the [`0.15.6` release notes](https://git
 
 ## Thanks for supporting contributions
 
-# 0.15.8
 
-## Major features and improvements
-
-## Bug fixes and other changes
-
-* Added the additional libraries to our `requirements.txt` so `pandas.CSVDataSet` class works out of box with `pip install kedro`.
-* Added `pandas` to our `extra_requires` in `setup.py`.
-* Improved the error message when dependencies of a `DataSet` class are missing.
-
-## Breaking changes to the API
-
-## Thanks for supporting contributions
-
-# 0.15.7
-
-## Major features and improvements
-
-* Added in documentation on how to contribute a custom `AbstractDataSet` implementation.
-
-## Bug fixes and other changes
-
-* Fixed the link to the Kedro banner image in the documentation.
-
-## Breaking changes to the API
-
-## Thanks for supporting contributions
-
-# 0.15.6
 
 ## Major features and improvements
 > _TL;DR_ We're launching [`kedro.extras`](https://github.com/kedro-org/kedro/tree/master/extras), the new home for our revamped series of datasets, decorators and dataset transformers. The datasets in [`kedro.extras.datasets`](https://github.com/kedro-org/kedro/tree/master/extras/datasets) use [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/) to access a variety of data stores including local file systems, network file systems, cloud object stores (including S3 and GCP), and Hadoop, read more about this [**here**](https://kedro.readthedocs.io/en/0.15.6/04_user_guide/04_data_catalog.html#specifying-the-location-of-the-dataset). The change will allow [#178](https://github.com/kedro-org/kedro/issues/178) to happen in the next major release of Kedro.
